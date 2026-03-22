@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday My Love💗 </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- HEARTS -->
+<div class="hearts">
+  <span>💗</span>
+  <span>💗</span>
+  <span>💗</span>
+  <span>💗</span>
+  <span>💗</span>
+  <span>💗</span>
+  <span>💗</span>
+  <span>💗</span>
+</div>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+    <div class="popup-box">
+        <h2>Will you be mine forever? 💗</h2>
+        <button class="yes" onclick="yesClicked()">Yes 💗</button>
+        <button class="no" onclick="noClicked()">No 💔</button>
+    </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="mainContent">
+
+    <div class="card">
+        <h1>Happy Birthday My Love ❤️</h1>
+
+        <p class="message">
+            To my person,<br><br>
+
+            You have been my safest place since the day we started loving each other.
+            You are the best gift I have ever received.<br><br>
+
+            I regret the days when I didn’t love you, even though you were right there beside me all the time.
+            Thank you for not giving up on me, even when I didn’t notice you.
+            I often wonder why you chose me.<br><br>
+
+            Even though I have said silly things, picked silly fights, and hurt you many times,
+            thank you for staying with me.
+            I wish I could have you with me forever, and I promise I will never leave you for any reason.<br><br>
+
+            Please bear with me, even when I am hard to handle.
+            I can’t imagine a single day without you.
+            Let us stay together through all the thick and thin.<br><br>
+
+            You will always be loved by me.<br><br>
+			Aprm nyabagam vechuko<br><br>
+			Unake uyir aanen ennalum enai nee maravadhe <br>
+			Nee illamal edhu nimmadhi, nee dhan endrum en sannidhi❤️<br><br>
+
+            <strong class="highlight">Love you to the moon and back 🌙❤️</strong>
+        </p>
+
+        <p class="from">-Yours Forever 💖</p>
+    </div>
+
+    <!-- BUTTON -->
+    <div class="photo-section">
+        <h2>Do you want to see some memories of us? 💕</h2>
+        <button onclick="goToGallery()" class="gallery-btn">
+            Let me take you on a tour 
+        </button>
+    </div>
+
+</div>
+
+<script>
+document.getElementById("mainContent").style.display = "none";
+
+function yesClicked() {
+    alert("Haaa I'm so happpyyy ❤️\nI have something to show you...");
+    document.getElementById("popup").style.display = "none";
+    document.getElementById("mainContent").style.display = "block";
+}
+
+function noClicked() {
+    alert("Ohhh you don’t want me?? 💔\nClick yes , cause u don’t have any other choice.\n You are trapped");
+}
+
+function goToGallery() {
+    window.location.href = "gallery.html";
+}
+</script>
+
+</body>
+</html>
